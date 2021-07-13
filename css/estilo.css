@@ -1,0 +1,104 @@
+:root{
+    --header-cor: #FF3240;
+    --bg-cor: #012B38;
+    --bg-secundario: #01495E;
+    --font-1: ivory;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.borda_img{
+   border: 2px solid ivory;
+}
+.borda_img:hover{
+    opacity: 0.8;
+ }
+img{
+    
+    border-radius: 3px;
+}
+h1::after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca.7s infinite;
+}
+h1{
+    font-family: Otomanopee One;
+}
+
+@keyframes pisca{
+    0%,100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+body{
+    background:#012B38;
+}
+/* -----------------------------------Variaveis-------------------- */
+.cor-header{
+  background: var(--header-cor);
+}
+.bg-cor{
+    background: var(--bg-cor);
+}
+.bg-secundario{
+    background: var(--bg-secundario);
+}
+.font-1{
+    color: var(--font-1);
+}
+/* ------------------------------------------------------------------------ */
+
+.categoria{
+
+ margin: 0 auto;
+ 
+}
+.categoriaItem{
+
+
+margin: 0 15px;
+
+
+
+
+
+}
+
+/* .categoria span{
+
+     margin-left: 2.5em; 
+} */
+
+.categoria a{
+    text-decoration:none;
+    color: black;
+}
+/*---------Cadastro profissional----------------------------------*/
+.cadastro_pro{
+    margin: 10rem;
+}
+.cadastro_pro p{
+    font-size:1.4em;
+
+}
+
+/*---------Cadastro Cliente----------------------------------*/
+.cadastro_cli{
+    margin: 10rem;
+}
+.cadastro_cli p{
+    font-size:1.4em;
+
+}
