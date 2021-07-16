@@ -107,19 +107,21 @@ margin: 0 15px;
   .pricing-table{
     margin: auto;
     display:flex;
-    justify-content:center;
-    text-align:center;
+    
+    flex-wrap:wrap;
+    justify-content: center;
+    text-align: center;
     
   }
   .col{
-      flex: 33%;
+     
       padding: 45px;
       max-width:320px;
       box-sizing: border-box;
   }
   .table{
       background:#fff;
-      padding: 45px 20px;
+      padding: 45px 30px;
       font-family: "montserrat",sans-serif;
       position: relative;
       overflow:hidden;
@@ -146,6 +148,8 @@ margin: 0 15px;
   .price span{
       display: block;
       font-size: 14px;
+     
+     
 
   }
 
@@ -154,7 +158,7 @@ margin: 0 15px;
       color: #2c3e50;
       border: 2px solid #2c3e50;
       display:block;
-      padding:10px 0;
+      padding:10px 0px;
       margin: 10px 0;
       border-radius: 40px;
       text-transform: uppercase;
@@ -167,11 +171,6 @@ margin: 0 15px;
       color: #fff;
   }
  
-  /* @media screen and (max-width:980px){
-      .col{
-          flex:50%;
-      }
 
-  } */
 
   
