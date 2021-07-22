@@ -31,6 +31,7 @@
 
     <!-- Estilo customizado -->
     <link rel="stylesheet" type="text/css" href="css/estiloIndex.css" />
+    <link rel="stylesheet" type="text/css" href="css/estiloSuporte.css" />
     
 
     <title></title>
@@ -73,23 +74,29 @@
     </header>
     <!--Fim da navegaçao-->
     <main>
-        <section>
+        <section> <!--Inicio chamado Cliente-->
              <div class="container ">
                  <div>
                      <div class="row pt-5">
-                         <div class="col-md-6 bg-white">
+                         <div id="Scliente" class="  col-md-6 bg-white">
                              <div class="text-center pt-3">
                                <span >SUPORTE PARA CLIENTE</span>
                              </div>
                              <div class="text-center pt-3">
-                               <h2>Abra um chamado</h2>
+                               <h2>Abra um<br> chamado</h2>
                              </div>
                              <div class="text-center pt-4">
                             <button class="btn btn-dark">Clique para Abrir</button>
                            </div>
                          </div>
-                         <div class="col-md-6">
-                            
+                         <div class="col-md-6 bg-white pl-2">
+                            <h2 class="ml-4 mt-5">Duvidas</h2>
+                            <p class="ml-4">Tire dúvidas, através do nosso formulário ou abra um 
+                              Ticket que estaremos prontos a responde-lo.</p>
+
+                            <h2 class="ml-4 mt-5">Reclamaçoes</h2>
+                            <p class="ml-4">Tire dúvidas, através do nosso formulário ou abra um 
+                                Ticket que estaremos prontos a responde-lo.</p>
                            
 
                         </div>
@@ -97,7 +104,92 @@
                      </div>
                  </div>
              </div>
-        </section>
+        </section> <!--Final chamado Cliente-->
+
+        <section> <!--Inicio chamado Profissional-->
+          <div class="container ">
+              <div>
+                  <div class="row pt-5">
+                      <div id="Scliente" class="  col-md-6 bg-white">
+                          <div class="text-center pt-3">
+                            <span >SUPORTE PARA CLIENTE</span>
+                          </div>
+                          <div class="text-center pt-3">
+                            <h2>Abra um<br> chamado</h2>
+                          </div>
+                          <div class="text-center pt-4">
+                         <button class="btn btn-dark">Clique para Abrir</button>
+                        </div>
+                      </div>
+                      <div class="col-md-6 bg-white pl-2">
+                         <h2 class="ml-4 mt-5">Duvidas</h2>
+                         <p class="ml-4">Tire dúvidas, através do nosso formulário ou abra um 
+                           Ticket que estaremos prontos a responde-lo.</p>
+
+                         <h2 class="ml-4 mt-5">Reclamaçoes</h2>
+                         <p class="ml-4">Tire dúvidas, através do nosso formulário ou abra um 
+                             Ticket que estaremos prontos a responde-lo.</p>
+                        
+
+                     </div>
+
+                  </div>
+              </div>
+          </div>
+     </section> <!--Final chamado Profissio-->
+
+     <section> 
+      <div class="container ">
+          <div>
+              <div class="row pt-5">
+                  <div class=" col-md-6 bg-white">
+                      <h2>Contato com o site</h2>
+                      <p>Se preferir entre em contato conosco<br> 
+                        através do nosso formulário.</p>
+                      
+                  </div>
+                  <div class="col-md-6 bg-white pl-2">
+                    <div>
+                      <form action="">
+                         <div class="form-group">
+                          <label for="usuario">Usuário:</label>
+                          <input class="form-control" type="text" id="usuario" placeholder="Digite seu usuário">
+                        </div>
+
+                        <div class="form-group">
+                          <label for="email">Email:</label>
+                          <input class="form-control" type="email" id="email" placeholder="Digite seu email" >
+                        </div>
+
+                        <div class="form-group">
+                          <label for="assunto">Assunto:</label>
+                          <input class="form-control-md" type="text" id="assunto" placeholder="" >
+                        </div>
+
+                        
+                        <div class="form-group">
+                          <label for="mensagem">Mensagem</label>
+                        <textarea class="form-control" id="mensagem" rows="3"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                          <label for="arquivo">Arquivo</label>
+                          <input class="form-control-file" type="file" id="arquivo">
+                        </div>
+                        <div>
+                          <button class="btn btn-danger">Enviar</button>
+                        </div>
+
+                        </form>
+                    </div>
+                 </div>
+
+              </div>
+          </div>
+      </div>
+ </section> 
+
+   
     
     </main>
 
