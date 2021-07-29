@@ -1,9 +1,33 @@
+/*  ************************* */
+/*  Cores usada na Pagina */
 :root{
-    --header-cor: #FF3240;
-    --bg-cor: #012B38;
-    --bg-secundario: #01495E;
-    --font-1: ivory;
+    --fundo1: #EDF0F0;
+    --fundo2: #FFFFFF;
+    --cor_Titulo: #1268B2;
+    --bg_Tema: #1B6EB5;
+    --bg_Tema_Dark: #0E4D82;
+
+    
 }
+/*  ************************* */
+/* -----------------------------------Variaveis de Cor-------------------- */
+.fundo1{
+    background: var(--fundo1);
+  }
+  .fundo2{
+      background: var(--fundo2);
+  }
+  .cor_Titulo{
+      background: var(--cor_Titulo);
+  }
+  .bg_Tema{
+      background: var(--bg_Tema);
+  }
+  .bg_Tema_Dark{
+      background: var(--bg_Tema_Dark);
+  }
+  
+  /* ------------------------------------------------------------------------ */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -24,6 +48,7 @@ img{
     
     border-radius: 3px;
 }
+  /* ------------------------Css da maquina de escrever--------------------------------- */
 h1::after{
     content: '|';
     margin-left: 5px;
@@ -42,23 +67,11 @@ h1{
         opacity: 0;
     }
 }
-body{
-    background:#012B38;
-}
-/* -----------------------------------Variaveis-------------------- */
-.cor-header{
-  background: var(--header-cor);
-}
-.bg-cor{
-    background: var(--bg-cor);
-}
-.bg-secundario{
-    background: var(--bg-secundario);
-}
-.font-1{
-    color: var(--font-1);
-}
 /* ------------------------------------------------------------------------ */
+body{
+    
+}
+
 
 .categoria{
 
