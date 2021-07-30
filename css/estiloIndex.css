@@ -18,7 +18,7 @@
       background: var(--fundo2);
   }
   .cor_Titulo{
-      background: var(--cor_Titulo);
+      color: var(--cor_Titulo);
   }
   .bg_Tema{
       background: var(--bg_Tema);
@@ -71,8 +71,24 @@ h1{
 body{
     
 }
+nav ul{
+    list-style: none;
+    
+    
+}
+nav a{
+    color: var(--cor_Titulo);
+    margin-left:15px;
+    padding-top: 10px;
+    font-weight: bold;
+    
 
+}
+nav a:hover{
+   
+   text-decoration: none;
 
+}
 .categoria{
 
  margin: 0 auto;
@@ -83,16 +99,9 @@ body{
 
 margin: 0 15px;
 
-
-
-
-
 }
 
-/* .categoria span{
 
-     margin-left: 2.5em; 
-} */
 
 .categoria a{
     text-decoration:none;
@@ -188,7 +197,10 @@ margin: 0 15px;
   .list-group-item{
       border: none;
   }
- 
+ #categoria_design{
+    background-color: #1B6EB5;
+    border-radius: 10px;
+ }
 
 
   
