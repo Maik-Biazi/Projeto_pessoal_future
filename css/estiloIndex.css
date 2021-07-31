@@ -69,7 +69,7 @@ h1{
 }
 /* ------------------------------------------------------------------------ */
 body{
-    
+    background: var(--fundo1);
 }
 nav ul{
     list-style: none;
@@ -118,7 +118,7 @@ margin: 0 15px;
 
 /*---------Cadastro Cliente----------------------------------*/
 .cadastro_cli{
-    margin: 10rem;
+    margin: 6rem;
 }
 .cadastro_cli p{
     font-size:1.4em;
@@ -147,7 +147,7 @@ margin: 0 15px;
       font-family: "montserrat",sans-serif;
       position: relative;
       overflow:hidden;
-      box-shadow: 0 0 10px #00000070;
+      box-shadow: 0 0 5px #1B6EB5;
       border-radius: 3px;
 
   }
@@ -189,7 +189,7 @@ margin: 0 15px;
     
   }
   .table a:hover{
-      background:#2c3e50;
+      background:#0E4D82;
       color: #fff;
   }
 
