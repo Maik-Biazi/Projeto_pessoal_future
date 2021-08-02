@@ -6,6 +6,7 @@
     --cor_Titulo: #1268B2;
     --bg_Tema: #1B6EB5;
     --bg_Tema_Dark: #0E4D82;
+    --bg_Tema_Light: #2D7ADF;
 
     
 }
@@ -25,6 +26,9 @@
   }
   .bg_Tema_Dark{
       background: var(--bg_Tema_Dark);
+  }
+  .bg_Tema_Light{
+    background: var(--bg_Tema_Light);
   }
   
   /* ------------------------------------------------------------------------ */
@@ -197,8 +201,10 @@ margin: 0 15px;
       border: none;
   }
  #categoria_design{
-    background-color: #1B6EB5;
+    background:#2D7ADF;
     border-radius: 10px;
+    opacity: 0.9;
+
  }
 
 

@@ -40,7 +40,7 @@
   <body>
     <header >
       <!--inicio da navegaçao-->
-      <nav class=" navbar navbar-expand-sm navbar-light   cor-header pb-4 ">
+      <nav class=" navbar navbar-expand-sm navbar-light   fundo1 pb-4 ">
         <div class="container ">
           <a href="#" class="navbar-brand">
             future Jobs</a>
@@ -54,16 +54,16 @@
           <div class="collapse navbar-collapse" id="nav-principal">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a href="index.html" class="nav-link  ">Home</a>
+                <a href="index.html" class="hvr-underline-from-left">Home</a>
               </li>
               <li class="nav-item">
-                <a href="#ComprarProposta" class="nav-link ">Comprar Proposta</a>
+                <a href="#ComprarProposta" class="hvr-underline-from-left ">Comprar Proposta</a>
               </li>
               <li class="nav-item">
-                <a href="ComoFunciona.html" class="nav-link">Como Funciona</a>
+                <a href="ComoFunciona.html" class="hvr-underline-from-left">Como Funciona</a>
               </li>
               <li class="nav-item">
-                <a href="" class="nav-link">Cadastrar</a>
+                <a href="" class="hvr-underline-from-left">Cadastrar</a>
               </li>
               <li class="nav-item">
                 <a href="login.html" class="btn btn-outline-light ml-4">Login</a>
@@ -79,7 +79,7 @@
              <div class="container ">
                  <div>
                      <div class="row pt-5">
-                         <div  class="  col-md-6 bg-white">
+                         <div  class="  col-md-6 fundo2">
                              <div class="text-center pt-3 mt-5">
                                <span >SUPORTE PARA CLIENTE</span>
                              </div>
@@ -90,7 +90,7 @@
                             <button class="btn btn-lg btn-dark hvr-hang">Clique para Abrir</button>
                            </div>
                          </div>
-                         <div id="Scliente" class=" col-md-6 bg-white pl-2">
+                         <div id="Scliente" class=" col-md-6 bg_Tema_Light pl-2">
                             <h2 class="ml-4 mt-5">Duvidas</h2>
                             <p class="ml-4">Tire dúvidas, através do nosso formulário ou abra um 
                               Ticket que estaremos prontos a responde-lo.</p>
@@ -107,11 +107,11 @@
              </div>
         </section> <!--Final chamado Cliente-->
 
-        <section> <!--Inicio chamado Profissional-->
+        <section class="fundo2 mt-4 pb-4"> <!--Inicio chamado Profissional-->
           <div class="container ">
               <div>
                   <div class="row pt-5 ">
-                      <div class="  col-md-6 bg-white  ">
+                      <div class="  col-md-6 fundo1  ">
                           <div class="text-center pt-3 mt-5  ">
                             <span >SUPORTE PARA CLIENTE</span>
                           </div>
@@ -122,7 +122,7 @@
                          <button class="btn btn-lg btn-dark hvr-hang">Clique para Abrir</button>
                         </div>
                       </div>
-                      <div id="Scliente"  class="col-md-6 bg-white pl-2">
+                      <div id="Scliente"  class="col-md-6 bg_Tema_Light pl-2">
                          <h2 class="ml-4 mt-5">Duvidas</h2>
                          <p class="ml-4">Tire dúvidas, através do nosso formulário ou abra um 
                            Ticket que estaremos prontos a responde-lo.</p>
@@ -139,7 +139,7 @@
           </div>
      </section> <!--Final chamado Profissio-->
 
-     <section> 
+     <section class="mt-4"> 
       <div class="container ">
           <div>
               <div class="row pt-5">
@@ -154,7 +154,7 @@
                   
                   <div class="col-md-6 bg-white pl-2">
                     <div>
-                      <form class="pt-3">
+                      <form name="formuser" class="pt-3">
                          <div class="form-group">
                           <label for="usuario">Usuário:</label>
                           <input class="form-control" type="text" id="usuario" placeholder="Digite seu usuário">
@@ -176,12 +176,12 @@
                         <textarea class="form-control" id="mensagem" rows="3"></textarea>
                         </div>
 
-                        <div class="form-group ">
+                        <!-- <div class="form-group ">
                           <label for="arquivo">Arquivo</label>
                           <input class="form-control-file" type="file" id="arquivo">
-                        </div>
+                        </div> -->
                         <div class="pb-4">
-                          <button class="btn btn-danger hvr-hang">Enviar</button>
+                          <button class="btn btn-danger hvr-hang"onclick="return validarFormSuporte()">Enviar</button>
                         </div>
                         
 
@@ -197,32 +197,48 @@
    
     
     </main>
-    <footer class="mt-4 mb-4">
+    <footer class="mt-4 mb-4 bg-white">
       <div class="container">
+        <div>
+          <h4 class="">Future Jobs</h4>
+        </div>
         <div class="row">
           <div class="col-md-8">
+            
             <p>
+              
               <a href="">Home</a>
-              <a href="">Recursos</a>
-              <a href="">Benefícios</a>
-              <a href="">Preços</a>
+              <a href="">Comprar Proposta</a>
+              <a href="">Logar</a>
+              <a href="">Cadadtrar</a>
             </p>
           </div>
-          <div class="col-md-4 d-flex justify-content-end">
-            <a href="" class="btn btn-outline-dark ml-2">
-              <i class="fab fa-facebook"></i>
-            </a>
-            <a href="" class="btn btn-outline-dark ml-2">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="" class="btn btn-outline-dark ml-2">
-              <i class="fab fa-instagram"></i>
-            </a>
-            <a href="" class="btn btn-outline-dark ml-2">
-              <i class="fab fa-youtube"></i>
-            </a>
-  
+          
+          <div class="col-md-4">
+            <p>
+              <a href="">Sobre nós</a>
+              <a href="">Fale Conosco</a>
+              <a href="">Carreiras</a>
+              <a href="suporte.html">Suporte</a>
+            </p>
           </div>
+        </div>
+  
+        <div>
+          
+         
+        </div>
+      </div>
+      <div>
+        <div class="container text-center">
+          <div>
+            <p>
+            <a href="">Termo de uso |</a>
+            <a href="">Configuraçoes de cookies |</a>
+            <a href="">Denuncias</a>
+          </p>
+          </div>
+  
         </div>
       </div>
     </footer>
@@ -231,7 +247,7 @@
 
 
     <!-- JavaScript (Opcional) -->
-    <script type="text/javascript" src="JavaScript/jsindex.js"></script>
+    <script type="text/javascript" src="JavaScript/suporte.js"></script>
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
